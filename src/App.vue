@@ -1,9 +1,19 @@
 <script setup>
 import { RouterView } from 'vue-router'
+import NavSideBar from './components/NavSideBar.vue'
 </script>
 
 <template>
-  <RouterView />
+  <div class="app">
+    <div class="app-inner">
+      <NavSideBar />
+      <RouterView />
+    </div>
+  </div>
 </template>
 
-<style scoped></style>
+<style lang="scss" scoped>
+.app-inner {
+  display: flex;
+}
+</style>
