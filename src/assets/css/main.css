@@ -1,0 +1,21 @@
+@import './reset.css';
+@import './font.css';
+
+.title {
+  font-family: MyriadPro;
+  font-size: 30px;
+  color: #000;
+  line-height: 1;
+}
+
+.link {
+  font-family: MyriadPro;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1253a2;
+  line-height: 1;
+}
+
+.link--active {
+  color: #000;
+}
